@@ -29,6 +29,7 @@ h1 {
   left: 0%;
   color: aquamarine;
 }
+
 h1,
 .info,
 button {
@@ -36,6 +37,7 @@ button {
   z-index: 1;
   color: black;
 }
+
 .info {
   margin-top: 20px;
   text-align: center;

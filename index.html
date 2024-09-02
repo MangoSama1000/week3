@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Week 3 Cookie Clicker Project</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="app.js" defer></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
     <title>Cookie Clicker</title>
-</head>
-<body>
-    <div id="game-container">
-        <h1>Cookie clicker</h1>
-        <div id="cookie-counter">
-            <p>Cookies: <span id="cookies">0</span></p>
-        </div>
-        <div id="cookie-picture">
-            <img id="picture" src="cookie.png" alt="cookie">
-        </div>
-        <div id="upgrades-list">
-            <h2>Auto clicker</h2>
-            <ul id="auto-clicker"></ul>
-        </div>
+  </head>
+
+  <body>
+    <div class="container">
+      <img src="cookies.png" alt="Cookies" />
+      <h1>Cookie Clicker</h1>
+      <div class="info">
+        <p>Cookies: <span id="CookieSpan">0</span></p>
+        <p>10 Cookies: <span id="CPSSpan">0</span></p>
+      </div>
+      <div class="misc">
+      <button id="CookieButton">1 moon per click</button>
+      <button id="moreCookie">10 Moon Cookies</button>
+      <button id="resetButton" onclick="resetGame()">Reset</button>
+      </div>
     </div>
-</body>
+  </body>
 </html>
